@@ -61,7 +61,7 @@ bt_start.onclick = function(){
 
 bt_stop.onclick = function(){
     clearInterval(interval);
-    isRunning = true;
+    isRunning = false;
 };
 
 bt_reset.onclick = function(){
