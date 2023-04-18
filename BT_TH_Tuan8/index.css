@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+#menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#left{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+.b a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    position: relative;
+}
+.right .search input{
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    width: 170px;
+    outline: none;
+    padding-left: 35px;
+    height: 36px;
+}
+.right .search i{
+    color: #b6b6b6;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+#banner h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 93px 50px 93px;
+    flex-wrap: nowrap;
+    transition: 0.2s;
+}
+.nd{
+    margin-left: 60px;
+}
+.nd h2, p, button{
+    margin-left: 70px;
+    
+}
+.nd h2, p{
+    padding-top: 10px;
+}
+.nd h2{
+    font-size: 28px;
+}
+.nd .p1{
+    font-family: Georgia;
+    font-size: 20px;
+}
+.nd .p2{
+    font-style: italic;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: darkgray;
+}
+.nd1 p{
+    font-family: Georgia;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.nd1{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.btn-success{
+    width: 150px;;
+}
+.box7{
+    border: none;
+    background-image: url(Image\ 1\ \(3\).png);
+    height: 290px;
+}
+
+.nd1 {
+    width: 540px;
+    margin: 0px 0px 0px 400px; 
+}
+
+#footer {
+    display: flex;
+    background-color: #1D2128;
+    justify-content: space-around;
+    height: 304px;
+    width: 100%;
+}
+.footer1{
+    margin-top: 70px;
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+
+}
+.item ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.item ul li{
+    list-style: none;
+    color: white;
+    line-height: 30px;
+}
+
+.item ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.item ul li select{
+    margin-top: 10px;
+    width: 126px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #1D2128;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+.item .tt{
+    font-size: 20px;
+}
+.item2 .nd3{
+    padding-top: 10px;
+    margin: 0px 0px 10px 0px;
+    color: white;
+}
+
+.item2 input[type="text"] {
+    border: 1px solid rgb(192, 192, 192);
+    background-color: #1D2128;
+    border-radius: 5px 0px 0px 5px;
+    height: 36px;
+    width: 260px;
+    padding-left: 43px;
+    color: white;
+    outline: none;
+
+}
+.item2 i{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 510px;
+    top: 1569px;
+}
+.item2 input[type="button"]{
+    border: none;
+    height: 38px;
+    padding: 0px;
+    border-radius: 0px 5px 5px 0px;
+    width: 126px;
+    background-color: #459D7A;
+    margin-left: -5px;
+    position: relative;
+    width: 127px;
+}
+
+.hihh{
+    margin: 30px 0px 0px 0px;
+}
+.hihh .hinh2{
+    margin-left: 10px;
+}
+
+.note ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.note ul li{
+    float: left;
+    margin: 20px;
+    color: white;
+}
+.note .note1{
+    list-style: none;
+}
+
